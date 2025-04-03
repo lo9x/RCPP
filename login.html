@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход - RCPP</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?173"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="ЛОГО ОТДЕЛЬНО-01.jpg" alt="Логотип">
+            </a>
+            <nav class="menu">
+                <a href="#1">Главная</a>
+                <a href="#2">Видео уроки</a>
+                <a href="#3">Услуги</a>
+                <a href="#4">Обратная связь</a>
+            </nav>
+            <div class="log">
+                <a href="login.html">Войти</a>
+                <a href="register.html">Зарегистрироваться</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="auth">
+        <div class="auth-container">
+            <h2>Вход</h2>
+            <form action="/submit-login" method="POST" class="auth-form">
+                <div class="form-group">
+                    <label for="email">Электронная почта</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn">Войти</button>
+                <div class="links">
+                    <a href="register.html">Забыли пароль?</a>
+                    <a href="register.html">Регистрация</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer" id="4">
+        <div class="container-foot">
+            <div class="contact-info">
+                <p>Телефон: +123456789</p>
+                <p>Email: info@helpcenter.ru</p>
+            </div>
+            <div class="social-media">
+                <a href="https://vk.com/rcppur">Вк</a>
+                <a href="https://vk.com/ivgri">Руководитель</a>
+                <a href="#">Политика конфиденциальности</a>
+                <a href="#">Пользовательское соглашение</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
